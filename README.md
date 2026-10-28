@@ -1,4 +1,4 @@
-**Analisador de Computador com IA **
+**Analisador de Computador travando com IA **
 
 Aplicação em Delphi 13 que coleta as configurações de hardware do PC (processador e memória RAM) via WMI, envia os dados em JSON para a API do Gemini (Google) e mostra na tela um diagnóstico com possíveis causas de travamento e as soluções.
 
@@ -18,10 +18,10 @@ Uma chave de API do Gemini (gratuita)
 
 **Como rodar**
 
-Baixe o repositório (Code → Download ZIP) e extraia em uma pasta.
+Baixe o repositório (Download ZIP) e extraia em uma pasta.
 Abra o arquivo Project3.dproj no Delphi.
 Crie a sua chave de API em https://aistudio.google.com (opção Get API key).
-Abra o AnalisadorConfig.pas, procure a linha LApiKey := e troque o texto pela sua chave gerada pelo gemini
+Abra o AnalisadorConfig.pas, procure a linha LApiKey := e troque o texto pela sua chave gerada pelo gemini.
 
 
 Aperte F9 para compilar e executar.
