@@ -1,4 +1,4 @@
-**Analisador de Computador travando com IA **
+**Analisador de Computador com travamento com IA **
 
 Aplicação em Delphi 13 que coleta as configurações de hardware do PC (processador e memória RAM) via WMI, envia os dados em JSON para a API do Gemini (Google) e mostra na tela um diagnóstico com possíveis causas de travamento e as soluções.
 
